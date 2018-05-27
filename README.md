@@ -50,6 +50,8 @@ if (car_speed<45.0 && && car_speed>35
 bool lane_change_completed = car_d<(2+4*target_lane+1) && car_d>(2+4*target_lane-1);
 
 ...
+```
+
 ##### Left/right lane change preference
 In fusion data processing step, these variables are recorded.
 ```
